@@ -8,6 +8,9 @@ const Sieve = () => {
     // funt();
     FillArray();
   },[]);
+  function changesize(){
+    return;
+  }
   function FillArray(){
     let newarray=[]
     for(let i=0;i<100;i++){
