@@ -72,6 +72,7 @@ const Sieve = () => {
 
   return (
     <div style={{height:"auto",background:"black"}}>
+      <h1 align="center" className='text-white p-4'>Sieve of Eratosthenes</h1>
       {/* {FillArray()} */}
       <nav className='d-flex justify-content-center'>
       <button className='btn btn-outline-success rounded-0' onClick={() => sievealgo()}>Start</button>
