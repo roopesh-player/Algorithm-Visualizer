@@ -37,7 +37,7 @@ const SortingApp = () => {
   // }
   return (
     <div style={{height:"100vh",background:"black"}}>
-     <h1 align="center" className='text-white'>Sorting Algorithms</h1>
+     <h1 align="center" className='text-info'>Sorting Algorithms</h1>
     <div className='d-flex justify-content-center'>
     <div  >
       {array.map((value,id)=>{

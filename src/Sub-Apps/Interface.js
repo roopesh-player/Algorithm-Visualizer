@@ -21,6 +21,13 @@ const Interface = () => {
             <Link className='btn btn-info rounded-0 fs-4' style={{width:'100%',height:'100%'}} to="/sieve">Sieve of Eratosthenes</Link>
         </div>
       </div>
+      <div className="card rounded-0"  style={{width: '18rem',margin:'auto'}}>
+        <img src="https://cdn.programiz.com/sites/tutorial2program/files/binary-search-mid.png" style={{height:"11rem"}} className="card-img-top" alt="..."/>
+        <div className="card-body p-0">
+            {/* <h5 className="card-title">Card title</h5> */}
+            <Link className='btn btn-info rounded-0 fs-4' style={{width:'100%',height:'100%'}} to="/binarysearch">Binary Search</Link>
+        </div>
+      </div>
       
     </div>
     </div>
